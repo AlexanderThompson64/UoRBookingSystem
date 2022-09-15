@@ -52,7 +52,7 @@ namespace UoRBookingSystemSprint2
             // btnNewRoomBooking
             // 
             this.btnNewRoomBooking.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnNewRoomBooking.Location = new System.Drawing.Point(1342, 134);
+            this.btnNewRoomBooking.Location = new System.Drawing.Point(1558, 133);
             this.btnNewRoomBooking.Name = "btnNewRoomBooking";
             this.btnNewRoomBooking.Size = new System.Drawing.Size(161, 49);
             this.btnNewRoomBooking.TabIndex = 2;
@@ -63,7 +63,7 @@ namespace UoRBookingSystemSprint2
             // btnDeleteRoomBooking
             // 
             this.btnDeleteRoomBooking.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnDeleteRoomBooking.Location = new System.Drawing.Point(1342, 244);
+            this.btnDeleteRoomBooking.Location = new System.Drawing.Point(1558, 243);
             this.btnDeleteRoomBooking.Name = "btnDeleteRoomBooking";
             this.btnDeleteRoomBooking.Size = new System.Drawing.Size(161, 49);
             this.btnDeleteRoomBooking.TabIndex = 3;
@@ -78,14 +78,14 @@ namespace UoRBookingSystemSprint2
             this.lstBookings.ItemHeight = 20;
             this.lstBookings.Location = new System.Drawing.Point(13, 51);
             this.lstBookings.Name = "lstBookings";
-            this.lstBookings.Size = new System.Drawing.Size(1323, 384);
+            this.lstBookings.Size = new System.Drawing.Size(1539, 384);
             this.lstBookings.TabIndex = 7;
             // 
             // cboFilterBookings
             // 
             this.cboFilterBookings.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboFilterBookings.FormattingEnabled = true;
-            this.cboFilterBookings.Location = new System.Drawing.Point(1342, 79);
+            this.cboFilterBookings.Location = new System.Drawing.Point(1558, 78);
             this.cboFilterBookings.Name = "cboFilterBookings";
             this.cboFilterBookings.Size = new System.Drawing.Size(161, 28);
             this.cboFilterBookings.TabIndex = 8;
@@ -94,7 +94,7 @@ namespace UoRBookingSystemSprint2
             // btnSaveList
             // 
             this.btnSaveList.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnSaveList.Location = new System.Drawing.Point(1342, 299);
+            this.btnSaveList.Location = new System.Drawing.Point(1558, 298);
             this.btnSaveList.Name = "btnSaveList";
             this.btnSaveList.Size = new System.Drawing.Size(161, 49);
             this.btnSaveList.TabIndex = 9;
@@ -105,7 +105,7 @@ namespace UoRBookingSystemSprint2
             // lstLoadBooking
             // 
             this.lstLoadBooking.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lstLoadBooking.Location = new System.Drawing.Point(1342, 354);
+            this.lstLoadBooking.Location = new System.Drawing.Point(1558, 353);
             this.lstLoadBooking.Name = "lstLoadBooking";
             this.lstLoadBooking.Size = new System.Drawing.Size(161, 49);
             this.lstLoadBooking.TabIndex = 10;
@@ -116,7 +116,7 @@ namespace UoRBookingSystemSprint2
             // btnEditRoomBooking
             // 
             this.btnEditRoomBooking.Font = new System.Drawing.Font("Segoe UI Semibold", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnEditRoomBooking.Location = new System.Drawing.Point(1342, 189);
+            this.btnEditRoomBooking.Location = new System.Drawing.Point(1558, 188);
             this.btnEditRoomBooking.Name = "btnEditRoomBooking";
             this.btnEditRoomBooking.Size = new System.Drawing.Size(161, 49);
             this.btnEditRoomBooking.TabIndex = 11;
@@ -129,7 +129,7 @@ namespace UoRBookingSystemSprint2
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1621, 450);
+            this.ClientSize = new System.Drawing.Size(1994, 649);
             this.Controls.Add(this.btnEditRoomBooking);
             this.Controls.Add(this.lstLoadBooking);
             this.Controls.Add(this.btnSaveList);
