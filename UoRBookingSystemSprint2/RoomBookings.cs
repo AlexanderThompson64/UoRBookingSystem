@@ -201,9 +201,18 @@ namespace UoRBookingSystemSprint2
         /// <param name="e"></param>
         private void RoomBookings_Load(object sender, EventArgs e)
         {
-            allBookings.LoadList();
-            UpdateList();
-            LoadComboBoxFilterType();
+            try
+            {
+                allBookings.LoadList();
+                UpdateList();
+                LoadComboBoxFilterType();
+            }
+
+            catch
+            {
+                MessageBox.Show("No Booking Data Found");
+            }
+            
             
         }
 
